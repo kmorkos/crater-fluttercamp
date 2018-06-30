@@ -10,6 +10,7 @@ dependencies:
       url: git://github.com/kmorkos/plugins.git
       ref: firebase_ml_vision/add-face-detector
       path: packages/firebase_ml_vision/
+  image_picker: "^0.4.5"
 
 dev_dependencies:
   flutter_test:
