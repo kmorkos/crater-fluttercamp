@@ -1,4 +1,4 @@
-package com.crater.fluttercamp.fluttercamp
+package com.crater.fluttercamp
 
 import android.os.Bundle
 

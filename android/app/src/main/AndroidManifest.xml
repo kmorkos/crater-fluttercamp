@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.crater.fluttercamp.fluttercamp">
+    package="com.crater.fluttercamp">
 
     <!-- The INTERNET permission is required for development. Specifically,
          flutter needs it to communicate with the running application
@@ -16,6 +16,10 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="fluttercamp"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="face" />
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
